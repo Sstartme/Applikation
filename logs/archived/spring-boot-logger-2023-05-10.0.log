@@ -1,0 +1,50 @@
+2023-05-10 10:51:00,942 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application on MBPvonSinthella.regz.ch with PID 50021 (started by sinthellaanpalagan in /Users/sinthellaanpalagan/Library/CloudStorage/OneDrive-Swisscom/Schule/3.Jahr_2.Semester/Modul 183/SoSpriBasisProjekt_V04)
+2023-05-10 10:51:00,947 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2023-05-10 10:51:00,948 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2023-05-10 10:51:01,026 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in /Users/sinthellaanpalagan/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/Users/sinthellaanpalagan/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/Users/sinthellaanpalagan/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/Users/sinthellaanpalagan/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/Users/sinthellaanpalagan/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/Users/sinthellaanpalagan/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/Users/sinthellaanpalagan/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2023-05-10 10:51:01,027 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-10 10:51:01,027 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-10 10:51:02,267 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-10 10:51:02,358 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 82ms. Found 2 JPA repository interfaces.
+2023-05-10 10:51:02,985 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-05-10 10:51:02,992 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-10 10:51:02,993 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-05-10 10:51:02,993 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.31]
+2023-05-10 10:51:03,055 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-05-10 10:51:03,057 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2029 ms
+2023-05-10 10:51:03,143 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-05-10 10:51:03,221 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-05-10 10:51:03,226 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console/'. Database available at 'jdbc:h2:mem:chatdb'
+2023-05-10 10:51:03,440 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-10 10:51:03,478 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.12.Final
+2023-05-10 10:51:03,555 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2023-05-10 10:51:03,612 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-05-10 10:51:04,216 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-10 10:51:04,226 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-10 10:51:04,295 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-05-10 10:51:04,732 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-10 10:51:04,876 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1a4e1cab, org.springframework.security.web.context.SecurityContextPersistenceFilter@4acaf34e, org.springframework.security.web.header.HeaderWriterFilter@6a159e5e, org.springframework.security.web.csrf.CsrfFilter@1f0a4631, org.springframework.security.web.authentication.logout.LogoutFilter@72ccfd3e, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@1ce869cd, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@1210204f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3c2c71de, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@47cae65c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3067ddc0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@81ccddd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1ec1c3df, org.springframework.security.web.session.SessionManagementFilter@4e18984e, org.springframework.security.web.access.ExceptionTranslationFilter@74598131, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@20bace75]
+2023-05-10 10:51:05,020 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2023-05-10 10:51:05,072 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-05-10 10:51:05,290 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 2 endpoint(s) beneath base path '/actuator'
+2023-05-10 10:51:05,345 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-05-10 10:51:05,362 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-10 10:51:05,367 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 5.006 seconds (JVM running for 5.99)
+2023-05-10 10:51:05,811 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(3)-10.41.112.65] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-10 10:51:05,818 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-10.41.112.65] Initializing Servlet 'dispatcherServlet'
+2023-05-10 10:51:05,834 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-10.41.112.65] Completed initialization in 15 ms
+2023-05-10 10:54:03,607 TRACE ch.bbw.pr.sospri.LoginLogoutController [http-nio-8080-exec-1] TRACE: Login request receivede
+2023-05-10 10:54:03,610 DEBUG ch.bbw.pr.sospri.LoginLogoutController [http-nio-8080-exec-1] DEBUG: Login request received
+2023-05-10 10:54:03,611 INFO ch.bbw.pr.sospri.LoginLogoutController [http-nio-8080-exec-1] INFO: Login request received
+2023-05-10 10:54:03,612 ERROR ch.bbw.pr.sospri.LoginLogoutController [http-nio-8080-exec-1] ERROR: Login request failed
+2023-05-10 10:54:03,612 WARN ch.bbw.pr.sospri.LoginLogoutController [http-nio-8080-exec-1] Warn: Login request requested.
+2023-05-10 11:01:30,862 TRACE ch.bbw.pr.sospri.LoginLogoutController [http-nio-8080-exec-4] TRACE: Login request receivede
+2023-05-10 11:01:30,863 DEBUG ch.bbw.pr.sospri.LoginLogoutController [http-nio-8080-exec-4] DEBUG: Login request received
+2023-05-10 11:01:30,864 INFO ch.bbw.pr.sospri.LoginLogoutController [http-nio-8080-exec-4] INFO: Login request received
+2023-05-10 11:01:30,864 ERROR ch.bbw.pr.sospri.LoginLogoutController [http-nio-8080-exec-4] ERROR: Login request failed
+2023-05-10 11:01:30,865 WARN ch.bbw.pr.sospri.LoginLogoutController [http-nio-8080-exec-4] Warn: Login request requested.
+2023-05-10 11:01:34,330 TRACE ch.bbw.pr.sospri.LoginLogoutController [http-nio-8080-exec-10] TRACE: Login request receivede
+2023-05-10 11:01:34,337 DEBUG ch.bbw.pr.sospri.LoginLogoutController [http-nio-8080-exec-10] DEBUG: Login request received
+2023-05-10 11:01:34,338 INFO ch.bbw.pr.sospri.LoginLogoutController [http-nio-8080-exec-10] INFO: Login request received
+2023-05-10 11:01:34,338 ERROR ch.bbw.pr.sospri.LoginLogoutController [http-nio-8080-exec-10] ERROR: Login request failed
+2023-05-10 11:01:34,339 WARN ch.bbw.pr.sospri.LoginLogoutController [http-nio-8080-exec-10] Warn: Login request requested.
